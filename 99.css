@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css reset*/
+
+
+.main{
+margin: 0 auto;
+width: 1280px;
+height: 1372px;
+background-color: #F0F0F0;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+}
+
+.main-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 366px;
+    
+    margin: 40px 30px;
+}
+
+.top-left , .top-right , .bottom-left , .bottom-right{
+    position: absolute;
+    color: #2EB738;
+}
+.top-left{
+    top:-10px;
+    left: 0;
+}
+.top-right{
+top: -10px;
+right: 0;
+}
+.bottom-left{
+bottom: -10px;
+left: 0;
+}
+.bottom-right{
+    bottom: -10px;
+    right: 0;
+}
+.area-title{
+    border-top:1px solid #2EB738;
+    border-bottom:1px solid #2EB738;
+    width: 300px;
+    height: 100%;
+    color: #2EB738;
+    text-align: center;
+}
+.title-text{
+margin-top:100px;
+width: 100%;
+font-size: 56px;
+color: #2EB738;
+font-weight: 700;
+
+}
+.title-text1{
+    margin-top:20px;
+    width: 100%;
+    font-size: 24px;
+    color: #2EB738;
+}
+ul{
+    font-size: 24px;
+    color:#2EB738;
+    width: 350px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    padding: 54px;
+    background: #ffffff;
+    flex-wrap: wrap;
+    border-radius: 100px 0 30px 0 ;
+    justify-content: space-around;
+    align-content: space-around;
+    box-sizing: border-box;
+    margin: 40px 30px; /*第一個是上下的留白 第二個是左右的留白*/
+}
+li{
+    height: 33px;
+    width: 105px;
+    font-size: 24px;
+    text-align: left;
+    font-family: Helvetica;
+}
+
+.titleNum{
+    width: 71px;
+    height: 153px;
+    font-size: 128px;
+    font-weight: bold;
+    text-align: left;
+    color: #2EB738;
+}
+    
